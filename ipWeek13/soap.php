@@ -2,7 +2,7 @@
     
     try
     {   
-        
+        // WAMP programini kullanmak daha iyi oluyor
         $request=new SoapClient('https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WDSL');
         $result=$request->TCKimlikNoDogrula(
             array(
